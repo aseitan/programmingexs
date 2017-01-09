@@ -1,5 +1,8 @@
 #pragma once
 
+//Write a function that takes a string as input and returns the string reversed.
+//https://leetcode.com/problems/reverse-string/
+
 class ReverseString
 {
 public:
