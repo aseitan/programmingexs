@@ -45,6 +45,7 @@ struct ListNode {
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
 #endif
+#include <cassert>
 #include <cctype>
 #include <cerrno>
 #include <cfloat>
