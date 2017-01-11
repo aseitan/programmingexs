@@ -1,3 +1,7 @@
+
+#ifndef STDC_H
+#define STDC_H
+
 // C++ includes used for precompiling -*- C++ -*-
 
 // Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010
@@ -127,3 +131,6 @@ struct ListNode {
 #include <unordered_map>
 #include <unordered_set>
 #endif
+
+
+#endif //STDC_H
