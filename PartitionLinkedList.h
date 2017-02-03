@@ -1,5 +1,6 @@
 #pragma once
 //write code to partition a linked list around a value x such that all nodes less than x com before all nodes greater than or equal to x
+// 1 2 3 | 5 | 8 9 10
 
 #include "stdc++.h"
 using namespace std;
@@ -10,11 +11,13 @@ public:
 
 	PartitionLinkedList()
 	{
+		cout << "Partition linked list: " << endl;
 		ListNode* head = new ListNode(9);
 		head->next = new ListNode(8);
 		head->next->next = new ListNode(1); //I'm lazy, get over it.
 
 		listNodesLinkedList(head);
+		cout << "partitioned:" << endl;
 		listNodesLinkedList(partitionList(head, 5));
 	}
 
